@@ -113,6 +113,15 @@ li {
   cursor: pointer;
 }
 
+[data-darkreader-scheme="dark"] .nav-container{
+  background: none;
+  color: white;
+}
+[data-darkreader-scheme="dark"] body{
+  background: none;
+  color: white
+}
+
 
 @media (max-width: 500px){
   .second-intro h2 {
